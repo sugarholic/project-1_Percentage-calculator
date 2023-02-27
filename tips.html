@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Tips</title>
+    <link rel="stylesheet" href="tips.css">
+</head>
+<body>
+    <div class="box">
+        <h1> TIPS</h1> <br>
+        <label>
+        <h2>Total Amount?</h2>
+        <input type="text" id="amount" placeholder= "Enter Amount">
+        </label> <br>
+
+        <label>
+        <div class="service"> <br>
+                <span class="give">How much % do you wish to give? / How much was the service charge?     
+                </span>
+
+            <p class="exp">
+                Please select your experience:
+            </p>
+            <select id="service">
+                <option disabled selected value="0">-- Choose your experience --</option>
+
+                <option value="0.3">Excellent - 30%</option>
+                <option value="0.2">Good - 20%</option>
+                <option value="0.15">Alright - 15%</option>
+                <option value="0.1">Bad - 10%</option>
+                <option value="0.05">Terrible - 5%</option>
+            </select>    
+        </div>
+        </label>
+
+        <label>
+        <div>
+            <p class="poeple">Are you sharing a meal with anyone?</p> 
+            <input type="text" id="share" placeholder="Number">
+        </div> 
+        </label><br>
+         
+        <button type="button" id="calculate">Calculate</button> 
+
+        <div id="total">
+            <span>$</span>
+            <span id="tip"> 0.00</span>
+            <small id="each">each</small>
+        </div>
+
+        <br><a href="index.html" class="back">Back to Homepage</a>
+
+    </div>
+</body>
+    <script src="/tips.js"></script>
+</html>

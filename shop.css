@@ -1,0 +1,53 @@
+body{
+    background-color: rgba(228, 183, 239, 0.65);
+    text-align: center;
+    padding: auto;
+}
+
+.box{
+    margin: 100px;
+    background-color: rgba(239, 184, 239, 0.759);
+}
+
+#amount{
+    font-style: italic;
+    font-size: 18px;
+    height: 38px;
+}
+
+.dis{
+    font-size: 20px;
+    margin: 14px;
+}
+
+#discount{
+    font-size: 17px;
+    width: 130px;
+    font-style: italic;
+    height: 30px;
+    margin: 10px;
+}
+
+.final{
+    font-size: 23px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 13px;
+}
+
+#final{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    height: 35px;
+    font-weight: bold;
+    border: hidden;
+    background-color:rgba(239, 184, 239, 0.759);
+    margin: 10px;
+    color: brown;
+}
+
+#calculate{
+    font-size: 17px;
+    margin: 12px;
+}

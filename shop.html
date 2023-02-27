@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Calculator</title>
+    <link rel="stylesheet" href="shop.css">
+</head>
+
+<body>
+    <form name="calculateShop">
+
+        <div class="box">
+        <h1>Shopping Calculator</h1>  
+        <br>
+        <label for="amount">
+        <h2>Total Amount?</h2>
+        <input type="text" id="amount" placeholder="Enter Amount">
+        </label> <br>
+
+        <div class="dis"> <br>
+            <label for="discount">
+                How much is the discount?
+            </label> <br>
+            <input type="number" id="discount"  maxlength="4" min="0" max="100" placeholder="Enter discount">
+        </div> 
+
+    <input id="calculate" type="button" value="Submit" onclick="calculate()"> 
+        
+        <div class="final">
+            <label for="final">
+                Price after discount:
+            </label> <br>
+            <input type="number" id="final" readonly>
+        </div>
+    </form>
+
+    <a href="index.html">Back to Homepage</a>
+
+    </div>
+
+    
+</body>
+    <script src="/shop.js"></script>
+</html>

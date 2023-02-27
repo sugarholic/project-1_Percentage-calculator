@@ -1,0 +1,65 @@
+body{
+    background-color: rgba(133, 243, 243, 0.366);
+    text-align: center;
+    font-size: 18px;
+}
+
+.box{
+    margin: 100px;
+    background-color: rgba(177, 244, 221, 0.327);
+}
+
+.service{
+    text-align: left;
+    text-align: center;
+    font-size: 23px;
+    padding: 10px;
+}
+
+#amount{
+    font-style: italic;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.exp{
+    text-align: center;
+    padding-top: 10px;
+}
+
+#service{
+    font-size: 18px;
+    text-align: center;
+}
+
+.poeple{
+    text-align: center;
+    font-size: 24px;
+    padding: 12px;
+}
+
+#share{
+    float: center;
+    font-size: 19px;
+    width: 75px;
+    height: 25px;
+    padding: 9px;
+}
+
+#calculate{
+    font-size: 19px;
+    font-weight: bold;
+    margin: 20px;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+#total{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.back{
+    float: center;
+    margin: 20px;
+}
